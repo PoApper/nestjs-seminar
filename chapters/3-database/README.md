@@ -498,4 +498,14 @@ users: User[];
 
 사실 ManyToMany는 앞의 두 relationship에 비해서 자주 쓰는 타입은 아니다. 경우에 따라서는 `@ManyToMany()` 데코레이터를 쓰는 것보단 로직을 직접 구현해서 쓰는게 더 편리할 수도 있다. `ManyToMany` 역시 앞의 두 relationship과 비슷한 패턴이기 때문에 간단히 소개만 하고 넘어가도록 하겠다. 더 자세한 내용은 TypeORM의 공식 문서를 참고하자 👉 [link](https://typeorm.io/#/many-to-many-relations)
 
+<hr/>
 
+## Homework
+
+1\. Board API에 대해 `getOne(id)`를 호출할 때마다 Board entity의 `views`가 1씩 증가하도록 구현할 것
+
+2\. 현실 또는 웹상에서 `OneToOne`, `OneToMany`/`ManyToOne`, `ManyToMany`로 관계맺는 상황의 예시를 각각 하나씩 생각해볼 것
+
+3\. 마지막에 언급한 `ManyToMany`를 `Board`, `User`의 예시로 직접 구현해볼 것
+
+완료 후 각자의 GitHub Repository에 업로드 하시면 됩니다 😉
