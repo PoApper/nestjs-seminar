@@ -36,9 +36,9 @@ NestJS 프레임워크에 대한 입문/고급 수준의 내용을 다룹니다.
    - Guards
    - Swagger
 5. Others
-   - Auth
    - Mailing
    - File Upload
+   - Auth
    - MVC (Render HTML Views)
 6. Testing
    - Code Coverage
