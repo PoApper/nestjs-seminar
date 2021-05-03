@@ -140,7 +140,7 @@ Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more a
   @UseInterceptors(FileInterceptor('file'))
   uploadFile(@UploadedFile() file) {
     console.log(file);
-    fs.writeFile(`uploads/{file.originalname}`, file.buffer, () => {}); // <- 이 부분을 작성해야 파일이 저장 됩니다!
+    fs.writeFile(`uploads/${file.originalname}`, file.buffer, () => {}); // <- 이 부분을 작성해야 파일이 저장 됩니다!
   }
 ```
 
